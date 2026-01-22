@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contáctanos – MUSHIDOKA</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" href="Priori Logo banner.png" type="image/png">
+  <script defer src="java.js"></script>
+</head>
+
+<body>
+
+<header class="header">
+  <div class="logo">
+    <a href="index.html">
+      <img src="Priori Logo.png" width="220" alt="MUSHIDOKA">
+    </a>
+  </div>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="descarga.html">Descargar</a>
+    <a href="manuales.html">Manuales</a>
+    <a href="nosotros.html">Nuestro equipo</a>
+    <a href="contacto.html">Contáctanos</a>
+  </nav>
+</header>
+
+<main class="page">
+
+  <section class="contact">
+    <h1>Contáctanos</h1>
+    <p class="subtitle">
+      ¿Tienes dudas, sugerencias o quieres colaborar con PRIORI?
+      Escríbenos o contáctanos directamente.
+    </p>
+
+
+<form 
+  class="contact-form"
+  action="https://formspree.io/f/xnjneqez"
+  method="POST">
+
+  <div class="form-group">
+    <label>Nombre</label>
+    <input 
+      type="text" 
+      name="nombre" 
+      placeholder="Tu nombre"
+      required>
+  </div>
+
+  <div class="form-group">
+    <label>Correo electrónico</label>
+    <input 
+      type="email" 
+      name="email" 
+      placeholder="tu@email.com"
+      required>
+  </div>
+
+  <div class="form-group">
+    <label>Mensaje</label>
+    <textarea 
+      name="message" 
+      placeholder="Escribe tu mensaje aquí..."
+      required></textarea>
+  </div>
+
+  <button type="submit" class="btn">
+    Enviar mensaje
+  </button>
+
+</form>
+
+
+    <div class="whatsapp-contact">
+      <p>O contáctanos directamente por WhatsApp</p>
+      <a 
+        href="https://wa.me/593981292082"
+        target="_blank"
+        class="btn whatsapp-btn">
+        💬 Contactar por WhatsApp
+      </a>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  © 2026 PRIORI – Todos los derechos reservados
+</footer>
+
+</body>
+</html>

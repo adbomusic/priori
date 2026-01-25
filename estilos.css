@@ -492,4 +492,84 @@ body::after {
 .enMitad img:hover {
     transform: translateY(-8px);
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6);
+
+}
+
+
+
+.forms-section {
+  padding: 140px 20px 80px;
+  text-align: center;
+}
+
+.titulo-encuestas {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.subtitulo-encuestas {
+  color: #cdd6f4;
+  margin-bottom: 60px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Contenedor vertical de encuestas */
+.forms-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+}
+
+/* Tarjeta de cada encuesta */
+.form-card {
+  width: 100%;
+  max-width: 560px;
+  background: rgba(10, 20, 60, 0.55);
+  backdrop-filter: blur(12px);
+  border-radius: 22px;
+  padding: 35px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.form-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 35px 80px rgba(93, 220, 255, 0.25);
+}
+
+.form-card h3 {
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+
+.form-card p {
+  color: #cdd6f4;
+  margin-bottom: 22px;
+  line-height: 1.6;
+}
+
+/* Botón de encuesta */
+.survey-btn {
+  padding: 14px 34px;
+  border-radius: 999px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.survey-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(100, 140, 255, 0.6);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .titulo-encuestas {
+    font-size: 2.3rem;
+  }
+
+  .form-card {
+    padding: 28px;
+  }
 }
